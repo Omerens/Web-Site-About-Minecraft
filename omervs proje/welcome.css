@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Minecraft', sans-serif;                            
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    color: slateblue;
+    text-align: center;
+    font-size: 190px;
+    cursor: pointer;
+    transition: 1s;
+    text-decoration: none;
+}
+a:hover{
+    color: #5B0888;
+}

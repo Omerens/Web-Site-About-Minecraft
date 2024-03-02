@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Minecraft', sans-serif;                           
+}
+body{
+    background-color: #3b2a1e;
+    background-repeat: no-repeat;
+}
+.navbar{
+    height: 20vh;
+    width: 100%;
+    background-color: #335a2a;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0,6);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.navbar h6{
+    color: #4f7ca7;
+    font-size: 13px;
+}
+.navbar h5{
+    text-decoration: none;
+    color: #2cbcbe;
+    font-size: 10px;
+}
+.navbar h4{
+    text-decoration: none;
+    color: #4ec7c1;
+    font-size: 16px;
+}
+.navbar h3{
+    text-decoration: none;
+    color: #567eb6;
+    font-size: 20px;
+}
+.navbar h2{
+    text-decoration: none;
+    color: #5aaabe;
+    font-size: 15px;
+}
+.navbar p{
+    text-decoration: none;
+    color: #49d4db;
+    font-size: 17px;
+}
+img{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    transition: 0.3s;
+    padding: 1%;
+}
+.box:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+.btn{
+    text-decoration: none;
+    font-size: 19px;
+    margin: 100px 50px;
+    display: inline-block;
+    padding: 15px 30px;
+    margin-left: 39%;
+    margin-top: 10%;
+}
+.btn1{
+    background-color: #163020;
+    color: whitesmoke;
+    transition: 0.7s;
+}
+.btn1:hover{
+    color: lime;
+    background-color: #000;
+}
+.join img{
+    margin-top: 7%;
+    margin-left: 30%;
+    transition: 1s;
+}
+.join img:hover{
+    transform: scale(1.2);
+    background: black;
+    z-index: 2;
+}
+.download{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.navbar a:hover{
+    transform: scale(1.3);
+    z-index: 3;
+}
+.navbar a{
+    transition: 1s;
+}
+.navbar h6, h5, h4, h3, h2, p{
+    height: 100%;
+    margin-left: 5%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.navbar h6:hover{
+    opacity: 1;
+}
+.navbar h5:hover{
+    opacity: 1;
+}
+.navbar h4:hover{
+    opacity: 1;
+}
+.navbar h3:hover{
+    opacity: 1;
+}
+.navbar h2:hover{
+    opacity: 1;
+}
+.navbar p:hover{
+    opacity: 1;
+}
+.navbar .img1 h6{
+    margin-top: 50%;
+    margin-left: 15%;
+}
+.navbar .img1 h5{
+    margin-top: 55%;
+    margin-left: 11%;
+}
+.navbar .img1 h4{
+    margin-top: 40%;
+}
+.navbar .img1 h3{
+    margin-top: 45%;
+    margin-left: 25%;
+}
+.navbar .img1 h2{
+    margin-top: 60%;
+    margin-left: 2%;
+}
+.navbar .img1 p{
+    margin-top: 55%;
+}
+.mods{
+    margin-top: 8%;
+    margin-left: 9%;
+}
+.more{
+    background-color: #070F2B;
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+    margin: 100px 50px;
+    display: inline-block;
+    padding: 15px 30px;
+    margin-left: 41%;
+    margin-top: 4%;
+    transition: 0.7s;
+}
+.more:hover{
+    background-color: #49d4db;
+    color: #000000;
+}

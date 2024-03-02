@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.cdnfonts.com/css/minecraft-3" rel="stylesheet">
+    <link rel="icon" href="icons/185611_grass_3d_icon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="server.css">
+    <title>Minecraft Servers</title>
+</head>
+<body>
+     <div class="navbar">
+        <h2>Minecraft Servers</h2>
+        <a href="index.html">Home Page</a>
+     </div>
+     <div class="table">
+        <table border="4">
+            <th>
+                <tr>
+                    <td>Rank</td>
+                    <td>Server Name</td>
+                    <td>Server</td>
+                    <td>Online Players</td>
+                    <td>Server IP</td>
+                </tr>
+            </th>
+            <tr>
+                <td>1</td>
+                <td>Complex Gamimg</td>
+                <td><video src="servers/Minecraft-servers-complex-gaming_2763-40330 (1).mp4" controls autoplay></video></td>
+                <td>4494/5000</td>
+                <td><button class="kpylabtn" onclick='copyText("org.mc-complex.com")'><strong>Click to Copy</strong></button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>InsanityCraft</td>
+                <td><video src="servers/Minecraft-servers-insanitycraft-1-20_100-71169.mp4" controls autoplay></video></td>
+                <td>208/5000</td>
+                <td><button class="kpylabtn" onclick='copyText("join.insanitycraft.net")'><strong>Click to Copy</strong></button></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>BlossomCraft</td>
+                <td><video src="https://best-minecraft-servers.co/Minecraft-servers-blossomcraft-1-20_1211-19863.mp4" controls autoplay></video></td>
+                <td>153/400</td>
+                <td><button class="kpylabtn" onclick='copyText("ms.blossomcraft.org")'><strong>Click to Copy</strong></button></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>WildWood SMP</td>
+                <td><video src="https://best-minecraft-servers.co/Minecraft-servers-wildwood-smp_8231-46117.mp4" controls autoplay></video></td>
+                <td>190/400</td>
+                <td><button class="kpylabtn" onclick='copyText("wildwoodsmp.com")'><strong>Click to Copy</strong></button></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>FadeCloud</td>
+                <td><video src="https://best-minecraft-servers.co/Minecraft-servers-fadecloud_1932-10541.mp4" controls autoplay></video></td>
+                <td>997/2000</td>
+                <td><button class="kpylabtn" onclick='copyText("hub.fadecloud.com")'><strong>Click to Copy</strong></button></td>
+            </tr>
+        </table><br><br><br>
+     </div>
+     <script>
+        // This must be triggered by a user event.
+function copyText (text) {
+  // Create the textarea input to hold our text.
+  const element = document.createElement('textarea');
+  element.value = text;
+  // Add it to the document so that it can be focused.
+  document.body.appendChild(element);
+  // Focus on the element so that it can be copied.
+  element.focus();
+  element.setSelectionRange(0, element.value.length);
+  // Execute the copy command.
+  document.execCommand('copy');
+  // Remove the element to keep the document clear.
+  document.body.removeChild(element);
+}
+     </script>
+</body>
+</html>

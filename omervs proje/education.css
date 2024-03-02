@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Minecraft', sans-serif;
+                                                
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Minecraft', sans-serif;
+                                                
+}
+
+body{
+    background-color:saddlebrown;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    height: 25vh;
+    width: 100%;
+    background-color: #064420;
+    color:gray;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    transition: 1s;
+    font-size: 35px;
+    transition: 1s;
+}
+h2{
+    font-size: 35px;
+    cursor: pointer;
+    transition: 1s;
+    color: red;
+}
+a:hover{
+    color: red;
+}
+.world{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 40px;
+    margin-top: 10%;
+    cursor: pointer;
+}
+.discover p{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: gray;
+   margin-top: 8%;
+   font-size: 50px;
+   cursor: pointer;
+}
+.discover h1{
+    font-size: 35px;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.works p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35%;
+    font-size: 40px;
+    cursor: pointer;
+}
+.first p{
+    margin-top: 5%;
+    margin-right: 60%;
+    cursor: pointer;
+}
+h3{
+    font-size: 35px;
+    color: rgb(5, 216, 118);
+    margin-left: 37%;
+    cursor: pointer;
+}
+.works img{
+    margin-left: 13%;
+    cursor: pointer;
+}
+h4{
+    font-size: 60px;
+    margin-left: 25%;
+    color: grey;
+    cursor: pointer;
+}
+
+.with p{
+    font-size: 30px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.img{
+    margin-left: 18%;
+    display: inline-block;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.one{
+    padding: 8px;
+}   

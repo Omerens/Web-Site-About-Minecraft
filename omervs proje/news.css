@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Minecraft', sans-serif;
+                                                
+}
+
+body{
+    background-color:#3b2a1e;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    height: 25vh;
+    width: 100%;
+    background-color: #335a2a;
+    color:gray;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navbar a{
+    text-decoration: none;
+    color: grey;
+    font-size: 36px;
+    transition: 1s;
+}
+.navbar a:hover{
+    color: red;
+}
+.navbar h2{
+    font-size: 38px;
+    color: red;
+}

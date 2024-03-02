@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Minecraft', sans-serif;
+                                                
+}
+
+body{
+    background-color: #70dfff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    height: 25vh;
+    width: 100%;
+    background-color: darkblue;
+    color:gray;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navbar a{
+    text-decoration: none;
+    color: gray;
+    transition: 1s;
+    font-size: 35px;
+    transition: 1s;
+}
+.navbar h2{
+    font-size: 35px;
+    cursor: pointer;
+    transition: 1s;
+    color: red;
+}
+.navbar a:hover{
+    color: red;
+}
+.img img{
+    margin-left: 21%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color:darkblue;
+}
+.update p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 40px;
+}
+.update img{
+    margin-left: 13%;
+}
+.join p{
+    font-size: 40px;
+    color: grey;
+    margin-left: 18%;
+}
+.join h1{
+    color: whitesmoke;
+    font-size: 30px;
+}
+.join a{
+    margin-left: 45%;
+    color: darkgreen;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.join a:hover{
+    color:blue;
+}
+.order p{
+    font-size: 40px;
+    color: grey;
+    margin-left: 30%;
+}
+.order h1{
+    color: whitesmoke;
+    font-size: 30px;
+}
+.order img{
+    margin-left: 20%;
+}
+.works p{
+    font-size: 50px;
+    color: whitesmoke;
+    margin-left: 35%;
+}
+.works img{
+    margin-left: 20%;
+}

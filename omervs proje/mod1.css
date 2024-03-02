@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Minecraft', sans-serif;
+}
+body{
+    background-color:#3b2a1e;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    height: 25vh;
+    width: 100%;
+    background-color: #335a2a;
+    color:grey;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h2{
+    font-size: 35px;
+    cursor: pointer;
+    transition: 1s;
+    color: red;
+}
+a{
+text-decoration: none;
+    color: gray;
+    transition: 1s;
+    font-size: 35px;
+    transition: 1s;
+
+}
+h2:hover{
+    color: red;
+}
+a:hover{
+    color: red;
+}
+i, p{
+    margin-left: 5%;
+}
+p{
+    font-size: 40px;
+    color: orangered;
+}
+i{
+    color: #fff;
+}
+.text p{
+    font-size: 30px;
+    margin-left: 2%;
+    color: #B4B4B8;
+}
+.text img{
+    margin-left: 23%;
+}
+
+.first{
+    background-color: #FAA300;
+
+    margin-left: 30%;
+
+     border: none;
+
+    color: white;
+
+    padding: 15px 32px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.6s;
+}
+.first:hover{
+    background-color: black;
+    color: rgb(48, 255, 255);
+}
+.second{
+    background-color: #9195F6;
+
+    margin-left: 2%;
+
+    border: none;
+
+    color: white;
+
+    padding: 15px 32px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    font-size: 16px;
+
+    cursor: pointer;
+    
+    transition: 0.6s;
+}
+.second:hover{
+    background-color: rgb(18, 18, 119);
+    color: rgb(78, 255, 78);
+}
+.third{
+    background-color: #B80000;
+
+    margin-left: 2%;
+
+    border: none;
+
+    color: white;
+
+    padding: 15px 32px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    font-size: 16px;
+
+    cursor: pointer;
+    
+    transition: 0.6s;
+}
+.third:hover{
+    background-color: #fff;
+    color: black;
+}

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Minecraft', sans-serif;
+}
+body{
+    background-color:#3b2a1e;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    height: 25vh;
+    width: 100%;
+    background-color: #335a2a;
+    color:gray;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Fireplace{
+    color:whitesmoke;
+    font-size: 35px;
+}
+img{
+    margin: 0 auto;
+    display: block;
+}
+p{
+    margin: 0;
+    display: block;
+}
+h2{
+    font-size: 35px;
+    cursor: pointer;
+    transition: 1s;
+    color: red;
+
+}
+div a{
+    
+        text-decoration: none;
+            color: gray;
+            transition: 1s;
+            font-size: 35px;
+            transition: 1s;
+        
+}
+h2:hover{
+    color: red;
+}
+div a:hover{
+    color: red;
+}
+.first p{
+    margin-left: 24%;
+}
+.second p{
+    margin-left: 30%;
+}
+.thirth p{
+    margin-left: 11%;
+}
+.fourth p{
+    margin-left: 28%;
+}
+.fifth p{
+    margin-left: 23%;
+}
+.sixth p{
+    margin-left: 17%;
+}
